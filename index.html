@@ -24,57 +24,41 @@
 
   <body>
 
-
-<div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Collapsed content</h5>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
-</div>
-
-
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <a class="navbar-brand" href="#">
-    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
-</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" data-toggle="collapse" data-target=".navbar-collapse">
+  <a class="navbar-brand" href="#">ACCOMPAGNEMENT HERA</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#hera">HERA <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Messages</a>
+        <a class="nav-link" href="#avant">AVANT ACCOUCHEMENT </a>
       </li>
-      <li class="nav-item dropdown">
-        <img class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://kitt.lewagon.com/placeholder/users/ssaunier" />
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#apres">APRES ACCOUCHEMENT </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#infos">INFORMATIONS PRATIQUES </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#intervenants">INTERVENANTS </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contacts">CONTACTS </a>
       </li>
     </ul>
   </div>
-</div>
-
-
+</nav>
 
 
 
   <div class="container mt-5">
     <div class= d-flex>
-      <div class='m-5'>
+      <div class='m-5' id='hera'>
         <h1>
           Hera, l’art de devenir mère
         </h1>
@@ -90,7 +74,7 @@
 
     <div class= d-flex>
       <img width="500" height="600" crop="fill" alt="femme portant un bébé" src="images/AvecBebe.png">
-      <div class='m-5'>
+      <div class='m-5' id='avant'>
         <h1>
           A votre écoute, de la conception à l’accueil de votre enfant
         </h1>
@@ -156,7 +140,7 @@
       <p>
         Nous vous assurons un cadre sécurisant, bienveillant, vous permettant devous soutenir mutuellement, toujours accompagnées par des professionnelles.
       </p>
-      <p>
+      <p id='apres'>
         ET APRES VOTRE ACCOUCHEMENT <br/ >
         Nous gardons et enrichissons le lien qui s’est construit pendant votre grossesse et vous proposons un accompagnement individuel pendant les mois qui suivent votre accouchement et selon vos besoins.
       </p>
@@ -166,7 +150,7 @@
       <div>
         <img width="600" height="550" crop="fill" alt="femme portant un bébé" src="images/Reunion.png">
       </div>
-      <h2>
+      <h2 id='infos'>
         Informations pratiques
       </h2>
       <p>
@@ -180,7 +164,7 @@
       </p>
     </div>
 
-
+<h2 id='intervenants'></h2>
     <div>
       <h3>
         SYLVIE MARTINON
@@ -200,11 +184,15 @@
       </p>
     </div>
 
-    <div>
+    <div id='contacts'>
       UNE QUESTION<br/ >
       OU PLUS D'INFORMATIONS ? N'hésitez pas à nous contacter : XX.X@xx.fr<br/ >
       Sylvie MARTINON : 06.63.84.96.48 Francesca CORNA : 06.22.38.75.76
     </div>
 
   </div>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
