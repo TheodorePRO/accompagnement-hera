@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 };
 
+.navbar-light {
+  color:#7b2a46;
+};
+
 img {
     border-radius: 25px;
 };
